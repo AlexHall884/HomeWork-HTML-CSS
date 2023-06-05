@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    
+    background-color: #fff;
+}
+
+.top {
+    padding-top: 14px;
+    padding-bottom: 15px;
+    max-width: 1147px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 26px;
+    padding-bottom: 48px;
+    
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+   
+}
+
+.header__logo span {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #F25822;
+}
+
+.menu__header {
+    font-family: 'Gilory-Medium';
+    font-size: 14px;
+    line-height: 16px;  
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-link {
+    margin-right: 30px;
+    border: 3px solid transparent;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.menu-link:hover {
+    background-color: #fff;
+    color: #F25822;
+}
+
+.top__content {
+    margin-top: 21px;
+}
+
+.top__info {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top__info__left{
+    margin-right: 40px;
+}
+
+.title {
+    margin-top: 59px;
+    margin-bottom: 17px;
+
+    width: 522px;
+    height: 222px;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    
+    color: #000;
+}
+
+.text {
+    width: 466px;
+    height: 48px;
+
+    font-family: 'Gilory-Medium';
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #888888;
+}
+
+.top__buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 38px;
+
+    padding-top: 37px;
+    padding-bottom: 39px;
+
+}
+
+.button {
+    padding: 1rem 2rem;
+    margin-right: 100px;
+    text-decoration: none;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    background-color: #fff;
+    color: #AAAAAA;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    transition: all 0.3s;
+
+}
+
+.button:hover {
+    background-color: #F25822;
+    color: #fff;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+
+
+.top__logos {
+    margin-top: 53px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilory-Medium';
+    src: url(fonts/Gilroy-Medium.ttf);
+}
