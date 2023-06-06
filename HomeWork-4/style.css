@@ -10,21 +10,20 @@ a {
 }
 
 body {
-    
-    background-color: #fff;
+    max-width: 1147px;
+    margin: 0 auto;
 }
 
 .top {
     padding-top: 14px;
     padding-bottom: 15px;
-    max-width: 1147px;
-    margin: 0 auto;
+    background-color: #fff;
 }
 
 .header {
     padding-top: 26px;
     padding-bottom: 48px;
-    
+
 }
 
 .header__container {
@@ -37,7 +36,7 @@ body {
     font-size: 24px;
     line-height: 28px;
     color: #000000;
-   
+
 }
 
 .header__logo span {
@@ -50,7 +49,7 @@ body {
 .menu__header {
     font-family: 'Gilory-Medium';
     font-size: 14px;
-    line-height: 16px;  
+    line-height: 16px;
     color: #000;
     display: flex;
     justify-content: space-between;
@@ -76,10 +75,10 @@ body {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.top__info__left{
+.top__info__left {
     margin-right: 40px;
 }
 
@@ -92,7 +91,7 @@ body {
     font-family: 'Gilroy-Bold';
     font-size: 60px;
     line-height: 70px;
-    
+
     color: #000;
 }
 
@@ -107,7 +106,7 @@ body {
     color: #888888;
 }
 
-.top__buttons{
+.top__buttons {
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
@@ -148,6 +147,141 @@ body {
     justify-content: space-between;
 }
 
+.content__preview {
+    display: flex;
+    flex-direction: row;
+    grid-column: inherit;
+    padding-top: 140px;
+    padding-bottom: 125px;
+}
+
+.preview__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+
+    padding: 40px 25px 29px 31px;
+    justify-content: space-between;
+}
+
+.center {
+
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background: #FFFFFF;
+}
+
+.preview__title {
+    margin-top: 25px;
+    margin-bottom: 17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.preview__text {
+    margin-bottom: 25px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.preview__button {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+    background-color: #fff;
+}
+
+.preview__button:hover {
+    background-color: #fff;
+    color: #F25822;
+}
+
+.content__info {
+    background: #FAFAFA;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+
+.info__title {
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+
+.info__text {
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: center;
+    color: #666666;
+    margin-top: 19px;
+    margin-bottom: 54px;
+}
+
+.box__item {
+    display: flex;
+    flex-direction: row;
+    grid-column: inherit;
+    gap: 13px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.info__item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 40px 25px 29px 31px;
+    justify-content: space-between;
+    box-sizing: content-box;
+    margin-bottom: 100px;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.info__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+
+    justify-content: space-between;
+    box-sizing: content-box;
+    margin-bottom: 100px;
+}
+
+.heading__info {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.item__text {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
+    text-align: center;
+    color: #AAAAAA;
+}
+
 @font-face {
     font-family: 'Gilroy-Bold';
     src: url(fonts/Gilroy-Bold.ttf);
@@ -156,4 +290,9 @@ body {
 @font-face {
     font-family: 'Gilory-Medium';
     src: url(fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(fonts/Gilroy-Regular.ttf);
 }
