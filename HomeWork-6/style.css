@@ -53,6 +53,7 @@ img {
     display: flex;
     align-items: center;
     gap: 30px;
+
 }
 
 .promo {
@@ -60,7 +61,7 @@ img {
     background: #F1E4E6;
     padding-left: calc(50% - 800px);
     padding-right: calc(50% - 800px);
-    margin-b: 48px;
+    margin-bottom: 48px;
 }
 
 .promo__content {
@@ -249,4 +250,68 @@ img {
 .button__product:hover {
     background-color: #FF6A6A;
     color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+
+    /*Стили для планшета */
+    .center {
+        padding-left: calc(50% - 368px);
+        padding-right: calc(50% - 368px);
+    }
+
+    .header__left {
+        padding-left: 16px;
+    }
+
+    .header__right {
+        gap: 25px;
+        margin-right: 17px;
+    }
+
+    .promo {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .promo__content {
+        padding-left: 0;
+    }
+
+    .promo__img {
+        width: 50%;
+    }
+
+    .promo__info {
+        margin-bottom: 18%;
+        margin-top: 18%;
+    }
+
+
+    .promo__title {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .promo__heading {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .sale {
+        padding-top: 0;
+    }
+
+    .sale__item_big {
+        min-height: 0;
+    }
+
+    .product__content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .product__item {
+        padding: 0;
+    }
 }
