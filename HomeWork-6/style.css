@@ -315,3 +315,64 @@ img {
         padding: 0;
     }
 }
+
+@media (max-width:767px) {
+
+    /*Стили для смартфона*/
+    .center {
+        padding-left: calc(50% - 145px);
+        padding-right: calc(50% - 145px);
+    }
+
+    .header__right {
+        #link {
+            display: none;
+        }
+    }
+
+    .promo {
+        padding-left: calc(50% - 135px);
+        padding-right: calc(50% - 135px);
+    }
+
+    .promo__img {
+        display: none;
+    }
+
+    .promo__info {
+        margin-bottom: 55%;
+        margin-top: 55%;
+    }
+
+    .promo__heading {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .promo__title {
+        font-size: 38px;
+        line-height: 53px;
+    }
+
+    .sale {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sale__heading {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    #item_big_img {
+        width: 100vw;
+        height: 15vh;
+    }
+
+    .product__text {
+        text-align: center;
+    }
+
+    .product__content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
